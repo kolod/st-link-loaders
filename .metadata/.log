@@ -292,3 +292,21 @@ Command-line arguments:  -os win32 -ws win32 -arch x86_64
 
 !ENTRY org.eclipse.cdt.core 1 0 2020-05-04 20:32:08.694
 !MESSAGE Indexed '24C64_STM32F105RB-I2C1-R' (9 sources, 30 headers) in 0.545 sec: 2,220 declarations; 10,784 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+!SESSION 2020-05-04 21:36:27.078 -----------------------------------------------
+eclipse.buildId=Version 1.3.0
+java.version=1.8.0_242
+java.vendor=AdoptOpenJDK
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ru_RU
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2020-05-04 21:36:37.612
+!MESSAGE Log4j initialized with config file C:\Users\alexa\STM32CubeIDE\workspace_1.3.0\.metadata\.log4j.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2020-05-04 21:36:42.897
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 4 4 2020-05-04 21:36:43.735
+!MESSAGE com.st.stm32cube.ide.mcu.ide/META-INF/version/build_ref file not found, build reference will not be reported into properties
+
+!ENTRY org.eclipse.cdt.core 1 0 2020-05-04 21:37:45.083
+!MESSAGE Indexed '24C64_STM32F105RB-I2C1-R' (9 sources, 47 headers) in 2,69 sec: 4 774 declarations; 17 417 references; 2 unresolved inclusions; 35 syntax errors; 186 unresolved names (0,83%)
