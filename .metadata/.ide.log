@@ -1,0 +1,574 @@
+2020-05-04 20:10:35,270 [INFO] Activator:176 - 
+
+
+2020-05-04 20:10:35,272 [INFO] Activator:177 - !SESSION log4j initialized
+2020-05-04 20:11:07,096 [INFO] ApplicationProperties:181 - Using Application install path: C:\Program Files\STMicroelectronics\STM32Cube\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.6.0.202002181639
+2020-05-04 20:11:07,106 [INFO] DbMcusXml:72 - Set database path to: C:\Program Files\STMicroelectronics\STM32Cube\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.6.0.202002181639\\db\/mcu/
+2020-05-04 20:11:07,110 [INFO] DbBoardsPdsc:54 - Set plugin database path to: C:\Program Files\STMicroelectronics\STM32Cube\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.6.0.202002181639\\db\/plugins/boardmanager/
+2020-05-04 20:11:07,110 [INFO] DbMcus:235 - Set plugin images path to: C:\Program Files\STMicroelectronics\STM32Cube\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.6.0.202002181639\\db\/plugins/mcufinder/images/
+2020-05-04 20:11:07,111 [INFO] DbBoards:232 - Set plugin images path to: C:\Program Files\STMicroelectronics\STM32Cube\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.6.0.202002181639\\db\/plugins/mcufinder/images/
+2020-05-04 20:11:07,115 [INFO] DbMcusAds:85 - Set database path to: C:\Users\alexa\.stmcufinder\plugins\mcufinder//mcu/
+2020-05-04 20:11:07,116 [INFO] DbMcusDocs:108 - Set database path to: C:\Users\alexa\.stmcufinder\plugins\mcufinder//mcu/
+2020-05-04 20:11:07,118 [INFO] DbMcusJson:61 - Set database path to: C:\Users\alexa\.stmcufinder\plugins\mcufinder//mcu/
+2020-05-04 20:11:07,119 [INFO] DbBoardsDocs:97 - Set database path to: C:\Users\alexa\.stmcufinder\plugins\mcufinder//mcu/
+2020-05-04 20:11:07,120 [INFO] DbBoardsJson:51 - Set database path to: C:\Users\alexa\.stmcufinder\plugins\mcufinder//mcu/
+2020-05-04 20:11:07,192 [INFO] CrossReferenceDbSqlite:197 - Set database path to: C:\Users\alexa\.stmcufinder\plugins\mcufinder//mcu/cs/
+2020-05-04 20:11:07,286 [INFO] RulesReader:52 - Compatibility file has been processed (208 Rules)
+2020-05-04 20:11:07,370 [INFO] MicroXplorer:570 - Detected Java Version = 1.8.0_242
+2020-05-04 20:11:07,371 [INFO] DbMcusXml:72 - Set database path to: C:\Program Files\STMicroelectronics\STM32Cube\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.6.0.202002181639\\db\/mcu/
+2020-05-04 20:11:07,371 [INFO] DbBoardsPdsc:54 - Set plugin database path to: C:\Program Files\STMicroelectronics\STM32Cube\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.6.0.202002181639\\db\/plugins/boardmanager/
+2020-05-04 20:11:07,371 [INFO] DbMcus:235 - Set plugin images path to: C:\Program Files\STMicroelectronics\STM32Cube\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.6.0.202002181639\\db\/plugins/mcufinder/images/
+2020-05-04 20:11:07,372 [INFO] DbBoards:232 - Set plugin images path to: C:\Program Files\STMicroelectronics\STM32Cube\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.6.0.202002181639\\db\/plugins/mcufinder/images/
+2020-05-04 20:11:07,372 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\alexa\.stmcufinder\plugins\mcufinder/ => C:\Users\alexa\.stmcufinder\plugins\mcufinder
+2020-05-04 20:11:07,372 [INFO] DbMcusAds:85 - Set database path to: C:\Users\alexa\.stmcufinder\plugins\mcufinder//mcu/
+2020-05-04 20:11:07,372 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\alexa\.stmcufinder\plugins\mcufinder/ => C:\Users\alexa\.stmcufinder\plugins\mcufinder
+2020-05-04 20:11:07,373 [INFO] DbMcusDocs:108 - Set database path to: C:\Users\alexa\.stmcufinder\plugins\mcufinder//mcu/
+2020-05-04 20:11:07,373 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\alexa\.stmcufinder\plugins\mcufinder/ => C:\Users\alexa\.stmcufinder\plugins\mcufinder
+2020-05-04 20:11:07,373 [INFO] DbMcusJson:61 - Set database path to: C:\Users\alexa\.stmcufinder\plugins\mcufinder//mcu/
+2020-05-04 20:11:07,373 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\alexa\.stmcufinder\plugins\mcufinder/ => C:\Users\alexa\.stmcufinder\plugins\mcufinder
+2020-05-04 20:11:07,373 [INFO] DbBoardsDocs:97 - Set database path to: C:\Users\alexa\.stmcufinder\plugins\mcufinder//mcu/
+2020-05-04 20:11:07,373 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\alexa\.stmcufinder\plugins\mcufinder/ => C:\Users\alexa\.stmcufinder\plugins\mcufinder
+2020-05-04 20:11:07,373 [INFO] DbBoardsJson:51 - Set database path to: C:\Users\alexa\.stmcufinder\plugins\mcufinder//mcu/
+2020-05-04 20:11:07,373 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\alexa\.stmcufinder\plugins\mcufinder/ => C:\Users\alexa\.stmcufinder\plugins\mcufinder
+2020-05-04 20:11:07,374 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\alexa\.stmcufinder\plugins\mcufinder/ => C:\Users\alexa\.stmcufinder\plugins\mcufinder
+2020-05-04 20:11:07,374 [INFO] CrossReferenceDbSqlite:197 - Set database path to: C:\Users\alexa\.stmcufinder\plugins\mcufinder//mcu/cs/
+2020-05-04 20:11:07,431 [INFO] MainPanel:181 - HeapMemory: 290455552
+2020-05-04 20:11:07,485 [INFO] DbMcusXml:72 - Set database path to: C:\Program Files\STMicroelectronics\STM32Cube\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.6.0.202002181639\\db\/mcu/
+2020-05-04 20:11:07,486 [INFO] DbBoardsPdsc:54 - Set plugin database path to: C:\Program Files\STMicroelectronics\STM32Cube\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.6.0.202002181639\\db\/plugins/boardmanager/
+2020-05-04 20:11:07,486 [INFO] DbMcus:235 - Set plugin images path to: C:\Program Files\STMicroelectronics\STM32Cube\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.6.0.202002181639\\db\/plugins/mcufinder/images/
+2020-05-04 20:11:07,486 [INFO] DbBoards:232 - Set plugin images path to: C:\Program Files\STMicroelectronics\STM32Cube\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.6.0.202002181639\\db\/plugins/mcufinder/images/
+2020-05-04 20:11:07,486 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\alexa\.stmcufinder\plugins\mcufinder/ => C:\Users\alexa\.stmcufinder\plugins\mcufinder
+2020-05-04 20:11:07,487 [INFO] DbMcusAds:85 - Set database path to: C:\Users\alexa\.stmcufinder\plugins\mcufinder//mcu/
+2020-05-04 20:11:07,487 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\alexa\.stmcufinder\plugins\mcufinder/ => C:\Users\alexa\.stmcufinder\plugins\mcufinder
+2020-05-04 20:11:07,487 [INFO] DbMcusDocs:108 - Set database path to: C:\Users\alexa\.stmcufinder\plugins\mcufinder//mcu/
+2020-05-04 20:11:07,487 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\alexa\.stmcufinder\plugins\mcufinder/ => C:\Users\alexa\.stmcufinder\plugins\mcufinder
+2020-05-04 20:11:07,487 [INFO] DbMcusJson:61 - Set database path to: C:\Users\alexa\.stmcufinder\plugins\mcufinder//mcu/
+2020-05-04 20:11:07,487 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\alexa\.stmcufinder\plugins\mcufinder/ => C:\Users\alexa\.stmcufinder\plugins\mcufinder
+2020-05-04 20:11:07,487 [INFO] DbBoardsDocs:97 - Set database path to: C:\Users\alexa\.stmcufinder\plugins\mcufinder//mcu/
+2020-05-04 20:11:07,487 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\alexa\.stmcufinder\plugins\mcufinder/ => C:\Users\alexa\.stmcufinder\plugins\mcufinder
+2020-05-04 20:11:07,488 [INFO] DbBoardsJson:51 - Set database path to: C:\Users\alexa\.stmcufinder\plugins\mcufinder//mcu/
+2020-05-04 20:11:07,488 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\alexa\.stmcufinder\plugins\mcufinder/ => C:\Users\alexa\.stmcufinder\plugins\mcufinder
+2020-05-04 20:11:07,488 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\alexa\.stmcufinder\plugins\mcufinder/ => C:\Users\alexa\.stmcufinder\plugins\mcufinder
+2020-05-04 20:11:07,488 [INFO] CrossReferenceDbSqlite:197 - Set database path to: C:\Users\alexa\.stmcufinder\plugins\mcufinder//mcu/cs/
+2020-05-04 20:11:07,505 [INFO] ApplicationProperties:181 - Using Application install path: C:\Program Files\STMicroelectronics\STM32Cube\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.6.0.202002181639
+2020-05-04 20:11:07,506 [INFO] PluginManage:178 - Search for loadable plugins [exclusion list=, tutovideos]
+2020-05-04 20:11:07,507 [INFO] PluginManage:292 - Check plugin analytics
+2020-05-04 20:11:07,521 [INFO] PluginManage:342 - Loaded plugin analytics (category:tool,tabindex:-1)
+2020-05-04 20:11:07,521 [INFO] PluginManage:292 - Check plugin clock
+2020-05-04 20:11:07,537 [INFO] PluginManage:342 - Loaded plugin clock (category:base,tabindex:2)
+2020-05-04 20:11:07,537 [INFO] PluginManage:292 - Check plugin ddr
+2020-05-04 20:11:07,539 [INFO] PluginManage:342 - Loaded plugin ddr (category:tool,tabindex:6)
+2020-05-04 20:11:07,539 [INFO] PluginManage:292 - Check plugin filemanager
+2020-05-04 20:11:07,641 [INFO] PluginManage:342 - Loaded plugin filemanager (category:base,tabindex:10)
+2020-05-04 20:11:07,641 [INFO] PluginManage:292 - Check plugin ipmanager
+2020-05-04 20:11:07,651 [INFO] PluginManage:342 - Loaded plugin ipmanager (category:base,tabindex:5)
+2020-05-04 20:11:07,651 [INFO] PluginManage:292 - Check plugin pinoutandconfiguration
+2020-05-04 20:11:07,667 [INFO] PluginManage:342 - Loaded plugin pinoutandconfiguration (category:base,tabindex:1)
+2020-05-04 20:11:07,667 [INFO] PluginManage:292 - Check plugin pinoutconfig
+2020-05-04 20:11:07,700 [INFO] PluginManage:342 - Loaded plugin pinoutconfig (category:base,tabindex:0)
+2020-05-04 20:11:07,700 [INFO] PluginManage:292 - Check plugin power
+2020-05-04 20:11:07,752 [INFO] PluginManage:342 - Loaded plugin power (category:power,tabindex:4)
+2020-05-04 20:11:07,752 [INFO] PluginManage:292 - Check plugin projectmanager
+2020-05-04 20:11:07,774 [INFO] PluginManage:342 - Loaded plugin projectmanager (category:projectmanager,tabindex:3)
+2020-05-04 20:11:07,774 [INFO] PluginManage:292 - Check plugin thirdparty
+2020-05-04 20:11:07,827 [INFO] ThirdPartyDb:295 - Open Third Party DataBase File (C:/Users/alexa/.stm32cubemx/plugins/thirdparty/db/thirdparties_db.xml) : 17 ms. number of Sw pack : 11
+2020-05-04 20:11:07,843 [INFO] PluginManage:342 - Loaded plugin thirdparty (category:base,tabindex:-1)
+2020-05-04 20:11:07,844 [INFO] PluginManage:292 - Check plugin tools
+2020-05-04 20:11:07,889 [INFO] PluginManage:342 - Loaded plugin tools (category:base,tabindex:7)
+2020-05-04 20:11:07,890 [INFO] PluginManage:292 - Check plugin tutovideos
+2020-05-04 20:11:07,978 [INFO] PluginManage:347 - Ignore plugin tutovideos (category:base)
+2020-05-04 20:11:07,978 [INFO] PluginManage:292 - Check plugin updater
+2020-05-04 20:11:07,988 [INFO] PluginManage:342 - Loaded plugin updater (category:base,tabindex:12)
+2020-05-04 20:11:07,988 [INFO] PluginManage:265 - PluginManage : Loaded plugins [12]
+2020-05-04 20:11:08,167 [INFO] PinOutPanel:1420 - setPackage(No Configuration,No Configuration)
+2020-05-04 20:11:08,267 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-05-04 20:11:08,268 [INFO] PluginManager:200 - loadIPPluginJar : add adc
+2020-05-04 20:11:08,298 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-05-04 20:11:08,298 [INFO] PluginManager:200 - loadIPPluginJar : add aes
+2020-05-04 20:11:08,336 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-05-04 20:11:08,337 [INFO] PluginManager:200 - loadIPPluginJar : add can
+2020-05-04 20:11:08,355 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-05-04 20:11:08,356 [INFO] PluginManager:200 - loadIPPluginJar : add comp
+2020-05-04 20:11:08,381 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-05-04 20:11:08,381 [INFO] PluginManager:200 - loadIPPluginJar : add cryp
+2020-05-04 20:11:08,408 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-05-04 20:11:08,408 [INFO] PluginManager:200 - loadIPPluginJar : add dfsdm
+2020-05-04 20:11:08,420 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-05-04 20:11:08,421 [INFO] PluginManager:200 - loadIPPluginJar : add dma
+2020-05-04 20:11:08,438 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-05-04 20:11:08,439 [INFO] PluginManager:200 - loadIPPluginJar : add fatfs
+2020-05-04 20:11:08,486 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-05-04 20:11:08,487 [INFO] PluginManager:200 - loadIPPluginJar : add fmc
+2020-05-04 20:11:08,498 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-05-04 20:11:08,499 [INFO] PluginManager:200 - loadIPPluginJar : add freertos
+2020-05-04 20:11:08,515 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-05-04 20:11:08,515 [INFO] PluginManager:200 - loadIPPluginJar : add genericplugin
+2020-05-04 20:11:08,594 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-05-04 20:11:08,594 [INFO] PluginManager:200 - loadIPPluginJar : add gfxmmu
+2020-05-04 20:11:08,706 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-05-04 20:11:08,706 [INFO] PluginManager:200 - loadIPPluginJar : add gic
+2020-05-04 20:11:08,716 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-05-04 20:11:08,716 [INFO] PluginManager:200 - loadIPPluginJar : add gpio
+2020-05-04 20:11:08,772 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-05-04 20:11:08,772 [INFO] PluginManager:200 - loadIPPluginJar : add gtzc
+2020-05-04 20:11:08,798 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-05-04 20:11:08,798 [INFO] PluginManager:200 - loadIPPluginJar : add hash
+2020-05-04 20:11:08,843 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-05-04 20:11:08,843 [INFO] PluginManager:200 - loadIPPluginJar : add i2c
+2020-05-04 20:11:08,878 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-05-04 20:11:08,878 [INFO] PluginManager:200 - loadIPPluginJar : add i2s
+2020-05-04 20:11:08,995 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-05-04 20:11:08,995 [INFO] PluginManager:200 - loadIPPluginJar : add ipddr
+2020-05-04 20:11:09,025 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-05-04 20:11:09,025 [INFO] PluginManager:200 - loadIPPluginJar : add ltdc
+2020-05-04 20:11:09,035 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-05-04 20:11:09,036 [INFO] PluginManager:200 - loadIPPluginJar : add mdma
+2020-05-04 20:11:09,045 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-05-04 20:11:09,045 [INFO] PluginManager:200 - loadIPPluginJar : add nvic
+2020-05-04 20:11:09,077 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-05-04 20:11:09,077 [INFO] PluginManager:200 - loadIPPluginJar : add opamp
+2020-05-04 20:11:09,115 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-05-04 20:11:09,115 [INFO] PluginManager:200 - loadIPPluginJar : add pdm2pcm
+2020-05-04 20:11:09,126 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-05-04 20:11:09,129 [INFO] PluginManager:200 - loadIPPluginJar : add plateformsettings
+2020-05-04 20:11:09,146 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-05-04 20:11:09,146 [INFO] PluginManager:200 - loadIPPluginJar : add quadspi
+2020-05-04 20:11:09,156 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-05-04 20:11:09,156 [INFO] PluginManager:200 - loadIPPluginJar : add resmgrutility
+2020-05-04 20:11:09,208 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-05-04 20:11:09,208 [INFO] PluginManager:200 - loadIPPluginJar : add sai
+2020-05-04 20:11:09,239 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-05-04 20:11:09,240 [INFO] PluginManager:200 - loadIPPluginJar : add spi
+2020-05-04 20:11:09,280 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-05-04 20:11:09,281 [INFO] PluginManager:200 - loadIPPluginJar : add stm32_wpan
+2020-05-04 20:11:09,300 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-05-04 20:11:09,300 [INFO] PluginManager:200 - loadIPPluginJar : add tim
+2020-05-04 20:11:09,355 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-05-04 20:11:09,355 [INFO] PluginManager:200 - loadIPPluginJar : add touchsensing
+2020-05-04 20:11:09,375 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-05-04 20:11:09,375 [INFO] PluginManager:200 - loadIPPluginJar : add tracer_emb
+2020-05-04 20:11:09,395 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-05-04 20:11:09,395 [INFO] PluginManager:200 - loadIPPluginJar : add ts
+2020-05-04 20:11:09,414 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-05-04 20:11:09,415 [INFO] PluginManager:200 - loadIPPluginJar : add tsc
+2020-05-04 20:11:09,442 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-05-04 20:11:09,442 [INFO] PluginManager:200 - loadIPPluginJar : add ucpd
+2020-05-04 20:11:09,479 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-05-04 20:11:09,479 [INFO] PluginManager:200 - loadIPPluginJar : add usart
+2020-05-04 20:11:09,865 [INFO] BoardConnectionPanel:3472 - [DDR PANEL] STM32CubeIDE environment
+2020-05-04 20:11:09,866 [INFO] MainDdrPanel:103 - [DDR PANEL] GETTER - cubeProgrammerPath is: null
+2020-05-04 20:11:10,043 [FATAL] Updater:277 - Updater called before beeing initialized
+2020-05-04 20:11:10,274 [FATAL] Updater:277 - Updater called before beeing initialized
+2020-05-04 20:11:10,278 [INFO] PinOutPanel:1420 - setPackage(No Configuration,No Configuration)
+2020-05-04 20:11:10,279 [FATAL] Updater:277 - Updater called before beeing initialized
+2020-05-04 20:11:10,283 [INFO] BoardConnectionPanel:3472 - [DDR PANEL] STM32CubeIDE environment
+2020-05-04 20:11:10,283 [INFO] MainDdrPanel:103 - [DDR PANEL] GETTER - cubeProgrammerPath is: C:\Program Files\STMicroelectronics\STM32Cube\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.cubeprogrammer.win32_1.3.0.202002181050\tools\bin
+2020-05-04 20:11:10,291 [INFO] ProgrammerExecThread:148 - [ProgrammerAPI] CubeProgrammer command construction: C:\Program Files\STMicroelectronics\STM32Cube\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.cubeprogrammer.win32_1.3.0.202002181050\tools\bin\STM32_Programmer_CLI.exe -l
+2020-05-04 20:11:10,692 [INFO] MainDdrPanel:93 - [DDR PANEL] SETTER - Set cubeProgrammerPath to: C:\Program Files\STMicroelectronics\STM32Cube\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.cubeprogrammer.win32_1.3.0.202002181050\tools\bin
+2020-05-04 20:11:10,735 [INFO] Updater:886 - Updater Version found : 5.6.0
+2020-05-04 20:11:10,752 [INFO] ApplicationProperties:181 - Using Application install path: C:\Program Files\STMicroelectronics\STM32Cube\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.6.0.202002181639
+2020-05-04 20:11:10,854 [FATAL] Updater:277 - Updater called before beeing initialized
+2020-05-04 20:11:10,854 [ERROR] IntegrityCheckThread:252 - Cannot obtain thirdParties list 21
+2020-05-04 20:11:10,854 [ERROR] IntegrityCheckThread:100 - Unexpected exception IntegrityCheckThread Thread: Updater error
+2020-05-04 20:11:10,854 [INFO] ThirdPartyDb:261 - Close Third Party DataBase File (C:/Users/alexa/.stm32cubemx/plugins/thirdparty/db/thirdparties_db.xml)
+2020-05-04 20:11:10,918 [INFO] MainUpdater:2230 - connection check result : 10
+2020-05-04 20:11:10,919 [INFO] MainUpdater:236 - Updater Check For Update Now.
+2020-05-04 20:11:10,919 [INFO] MicroXplorer:420 - Change Database Version : DB.5.0.60
+2020-05-04 20:11:10,960 [INFO] CheckServerUpdateThread:92 - End of CheckServer Thread
+2020-05-04 20:11:10,960 [INFO] MainUpdater:2230 - connection check result : 10
+2020-05-04 20:11:10,961 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Successfull proxy connection.
+2020-05-04 20:11:11,255 [INFO] McuFinderGlobals:40 - Set McuFinder mode to 2 (CubeIDE integrated)
+2020-05-04 20:11:11,263 [INFO] FinderPluginLoader:86 - Searching for filters in installed packs
+2020-05-04 20:11:11,265 [INFO] DbMcusXml:110 - Load MCU database from C:\Program Files\STMicroelectronics\STM32Cube\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.6.0.202002181639\\db\/mcu/families.xml
+2020-05-04 20:11:12,001 [INFO] DbMcusJson:90 - JSON generation date=Wed Apr 15 08:54:18 EEST 2020 (1586930058)
+2020-05-04 20:11:12,613 [INFO] DbMcus:171 - Found 1670 MCUs (1625 are supported by CubeMX, 1625 are visible in CubeMX)
+2020-05-04 20:11:12,614 [INFO] ApiDb:147 - User favorites file not found: C:\Users\alexa/.stm32cubeide/favorites.mcus.txt
+2020-05-04 20:11:12,614 [INFO] DbMcus:183 - Set 0 / 0 favorites MCUs
+2020-05-04 20:11:13,475 [INFO] DbMcusAds:143 - JSON generation date=Thu Mar 12 17:08:29 EET 2020 (1584025709)
+2020-05-04 20:11:13,477 [INFO] LoadUrlFilesThread:161 - End of LoadServerUrlFiles without Thread
+2020-05-04 20:11:13,512 [INFO] McuDetailPanel:181 - Set advertising image to C:/Users/alexa/STM32Cube/Repository/\STM32L4_MCUs_N4239S_big.jpg
+2020-05-04 20:11:14,410 [INFO] ServerAccessManage:348 - Download File mcusAds.json._tmp_
+2020-05-04 20:11:14,445 [INFO] LoadUrlFilesThread:134 - End of LoadUrlFiles Thread
+2020-05-04 20:11:14,596 [INFO] ServerAccessManage:348 - Download File mcusDocs.json._tmp_
+2020-05-04 20:11:14,700 [INFO] LoadUrlFilesThread:134 - End of LoadUrlFiles Thread
+2020-05-04 20:11:14,835 [INFO] ServerAccessManage:348 - Download File mcusFeaturesAndDescription.json._tmp_
+2020-05-04 20:11:15,638 [INFO] LoadUrlFilesThread:134 - End of LoadUrlFiles Thread
+2020-05-04 20:11:15,793 [INFO] ServerAccessManage:348 - Download File boardsDocs.json._tmp_
+2020-05-04 20:11:15,849 [INFO] LoadUrlFilesThread:134 - End of LoadUrlFiles Thread
+2020-05-04 20:11:16,019 [INFO] ServerAccessManage:348 - Download File boards.json._tmp_
+2020-05-04 20:11:16,079 [INFO] LoadUrlFilesThread:134 - End of LoadUrlFiles Thread
+2020-05-04 20:11:16,407 [INFO] ServerAccessManage:348 - Download File crdb.zip
+2020-05-04 20:11:16,628 [INFO] FileExtend:225 - Unzip File : crdb.zip
+2020-05-04 20:11:16,630 [INFO] FileExtend:240 - Standard Zip Deflate
+2020-05-04 20:11:16,654 [INFO] LoadUrlFilesThread:134 - End of LoadUrlFiles Thread
+2020-05-04 20:11:16,655 [INFO] DbMcusAds:143 - JSON generation date=Thu Apr 30 16:50:56 EEST 2020 (1588254656)
+2020-05-04 20:11:16,659 [INFO] DbMcusDocs:142 - JSON generation date=Thu Apr 16 17:39:08 EEST 2020 (1587047948)
+2020-05-04 20:11:16,811 [INFO] DbMcusDocs:77 - Found 563 MCUs documents
+2020-05-04 20:11:16,813 [INFO] ApiDb:186 - Save user favorites file C:\Users\alexa/.stm32cubeide/favorites.mcus.txt: 0 item(s)
+2020-05-04 20:11:16,813 [INFO] ApiDb:191 - User favorites MCUs=[]
+2020-05-04 20:11:16,814 [INFO] DbMcusXml:110 - Load MCU database from C:\Program Files\STMicroelectronics\STM32Cube\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.6.0.202002181639\\db\/mcu/families.xml
+2020-05-04 20:11:17,148 [INFO] DbMcusJson:90 - JSON generation date=Wed Apr 15 08:54:18 EEST 2020 (1586930058)
+2020-05-04 20:11:17,644 [INFO] DbMcus:171 - Found 1670 MCUs (1625 are supported by CubeMX, 1625 are visible in CubeMX)
+2020-05-04 20:11:17,645 [INFO] ApiDb:158 - Load user favorites file C:\Users\alexa/.stm32cubeide/favorites.mcus.txt: 0 item(s)
+2020-05-04 20:11:17,645 [INFO] ApiDb:163 - User favorites MCUs=[]
+2020-05-04 20:11:17,645 [INFO] DbMcus:183 - Set 0 / 0 favorites MCUs
+2020-05-04 20:11:17,687 [INFO] McuFilterPanel:249 - Update 0 favorites MCUs
+2020-05-04 20:11:17,954 [INFO] DbBoardsDocs:131 - JSON generation date=Wed Apr 15 08:54:18 EEST 2020 (1586930058)
+2020-05-04 20:11:17,974 [INFO] DbBoardsPdsc:92 - Found 22 items
+2020-05-04 20:11:17,984 [INFO] DbBoardsPdsc:92 - Found 9 items
+2020-05-04 20:11:17,992 [INFO] DbBoardsPdsc:92 - Found 28 items
+2020-05-04 20:11:17,999 [INFO] DbBoardsPdsc:92 - Found 1 items
+2020-05-04 20:11:18,012 [INFO] DbBoardsPdsc:92 - Found 40 items
+2020-05-04 20:11:18,023 [INFO] DbBoardsPdsc:92 - Found 39 items
+2020-05-04 20:11:18,031 [INFO] DbBoardsPdsc:92 - Found 2 items
+2020-05-04 20:11:18,044 [INFO] DbBoardsPdsc:92 - Found 4 items
+2020-05-04 20:11:18,048 [WARN] DbBoardsPdsc:256 - Board STM32H7B3I-DK: unknown feature type=Audio, name=, username=Audio stereo codec with Headphone Amp (CS42L51-CNZ), n=1
+2020-05-04 20:11:18,048 [WARN] DbBoardsPdsc:256 - Board STM32H7B3I-DK: unknown feature type=WIFI, name=, username=WIFI 802.11 b/g/n, n=1
+2020-05-04 20:11:18,050 [WARN] DbBoardsPdsc:256 - Board STM32H7B3I-EVAL: unknown feature type=Audio, name=, username=Multi-Channel Audio Codec (CS42L51-CNZ), n=1
+2020-05-04 20:11:18,050 [WARN] DbBoardsPdsc:256 - Board STM32H7B3I-EVAL: unknown feature type=Meter, name=, username=Power-metering and Temperature-monitoring with sigma-delta modulators, n=1
+2020-05-04 20:11:18,050 [WARN] DbBoardsPdsc:256 - Board STM32H7B3I-EVAL: unknown feature type=WIFI, name=, username=WIFI 802.11 a/b/g/n, n=1
+2020-05-04 20:11:18,050 [WARN] DbBoardsPdsc:256 - Board STM32H7B3I-EVAL: unknown feature type=Motor, name=, username=Motor Control, n=1
+2020-05-04 20:11:18,058 [INFO] DbBoardsJson:80 - JSON generation date=Tue Feb 11 15:53:55 EET 2020 (1581429235)
+2020-05-04 20:11:18,064 [INFO] DbBoards:120 - Found 145 boards (142 are supported by CubeMX)
+2020-05-04 20:11:18,068 [INFO] DbBoardsDocs:131 - JSON generation date=Wed Apr 15 08:54:18 EEST 2020 (1586930058)
+2020-05-04 20:11:18,074 [INFO] DbBoardsDocs:70 - Found 157 boards documents
+2020-05-04 20:11:18,075 [WARN] DbBoards:130 - board NUCLEO-H743ZI2 has no document id list !
+2020-05-04 20:11:18,075 [WARN] DbBoards:130 - board NUCLEO-L4P5ZG has no document id list !
+2020-05-04 20:11:18,076 [WARN] DbBoards:130 - board P-NUCLEO-WB55-Nucleo has no document id list !
+2020-05-04 20:11:18,076 [WARN] DbBoards:130 - board P-NUCLEO-WB55-USBDongle has no document id list !
+2020-05-04 20:11:18,076 [WARN] DbBoards:130 - board NUCLEO-WB35CE has no document id list !
+2020-05-04 20:11:18,076 [WARN] DbBoards:130 - board STM32F401C-DISCO has no document id list !
+2020-05-04 20:11:18,077 [WARN] DbBoards:130 - board STM32F769I-DISC1 has no document id list !
+2020-05-04 20:11:18,077 [WARN] DbBoards:152 - board STM32F723E-DISCO / document id not found: 4598
+2020-05-04 20:11:18,077 [WARN] DbBoards:130 - board STM32L-DISCOVERY has no document id list !
+2020-05-04 20:11:18,077 [WARN] DbBoards:152 - board STM32L496G-DISCO / document id not found: 4598
+2020-05-04 20:11:18,077 [WARN] DbBoards:152 - board STM32H747I-DISCO / document id not found: 4598
+2020-05-04 20:11:18,078 [WARN] DbBoards:130 - board STM32H747I-DISC1 has no document id list !
+2020-05-04 20:11:18,078 [WARN] DbBoards:152 - board STM32H745I-DISCO / document id not found: 4598
+2020-05-04 20:11:18,078 [WARN] DbBoards:152 - board STM32H750B-DK / document id not found: 4598
+2020-05-04 20:11:18,078 [WARN] DbBoards:152 - board STM32H7B3I-DK / document id not found: 4598
+2020-05-04 20:11:18,078 [WARN] DbBoards:152 - board STM32L4R9I-DISCO / document id not found: 4598
+2020-05-04 20:11:18,078 [WARN] DbBoards:130 - board STM32MP157A-DK1 has no document id list !
+2020-05-04 20:11:18,078 [WARN] DbBoards:152 - board STM32L562E-DK / document id not found: 4598
+2020-05-04 20:11:18,078 [WARN] DbBoards:130 - board STM32L4P5G-DK has no document id list !
+2020-05-04 20:11:18,078 [WARN] DbBoards:130 - board STM32091C-EVAL has no document id list !
+2020-05-04 20:11:18,078 [WARN] DbBoards:130 - board STM3210C-EVAL has no document id list !
+2020-05-04 20:11:18,078 [WARN] DbBoards:130 - board STM32100E-EVAL has no document id list !
+2020-05-04 20:11:18,078 [WARN] DbBoards:130 - board STM3221G-EVAL has no document id list !
+2020-05-04 20:11:18,079 [WARN] DbBoards:130 - board STM32303C-EVAL has no document id list !
+2020-05-04 20:11:18,079 [WARN] DbBoards:130 - board STM32L152D-EVAL has no document id list !
+2020-05-04 20:11:18,079 [WARN] DbBoards:130 - board STM32746G-EVAL2 has no document id list !
+2020-05-04 20:11:18,079 [WARN] DbBoards:130 - board STM32F779I-EVAL has no document id list !
+2020-05-04 20:11:18,079 [WARN] DbBoards:130 - board STM32479I-EVAL has no document id list !
+2020-05-04 20:11:18,079 [WARN] DbBoards:130 - board STM32H743I-EVAL2 has no document id list !
+2020-05-04 20:11:18,079 [WARN] DbBoards:152 - board STM32H7B3I-EVAL / document id not found: 4596
+2020-05-04 20:11:18,079 [WARN] DbBoards:130 - board STM32H753I-EVAL2 has no document id list !
+2020-05-04 20:11:18,080 [WARN] DbBoards:130 - board STM32G474E-EVAL1 has no document id list !
+2020-05-04 20:11:18,080 [WARN] DbBoards:130 - board STEVAL-BFA001V1B has no document id list !
+2020-05-04 20:11:18,080 [WARN] DbBoards:130 - board STEVAL-BFA001V2B has no document id list !
+2020-05-04 20:11:18,080 [WARN] DbBoards:130 - board STEVAL-MKSBOX1V1 has no document id list !
+2020-05-04 20:11:18,080 [WARN] DbBoards:130 - board STEVAL-STWINKT1 has no document id list !
+2020-05-04 20:11:18,080 [WARN] DbBoards:130 - board STEVAL-IDP005V1 has no document id list !
+2020-05-04 20:11:18,080 [WARN] DbBoards:130 - board STEVAL-IDP005V2 has no document id list !
+2020-05-04 20:11:19,578 [INFO] ApiDb:147 - User favorites file not found: C:\Users\alexa/.stm32cubeide/favorites.boards.txt
+2020-05-04 20:11:19,579 [INFO] DbBoards:209 - Set 0 / 0 favorites Boards
+2020-05-04 20:11:19,584 [INFO] DbBoardsDocs:70 - Found 314 boards documents
+2020-05-04 20:11:19,584 [INFO] ApiDb:186 - Save user favorites file C:\Users\alexa/.stm32cubeide/favorites.boards.txt: 0 item(s)
+2020-05-04 20:11:19,584 [INFO] ApiDb:191 - User favorites Boards=[]
+2020-05-04 20:11:19,587 [INFO] DbBoardsPdsc:92 - Found 22 items
+2020-05-04 20:11:19,589 [INFO] DbBoardsPdsc:92 - Found 9 items
+2020-05-04 20:11:19,591 [INFO] DbBoardsPdsc:92 - Found 28 items
+2020-05-04 20:11:19,592 [INFO] DbBoardsPdsc:92 - Found 1 items
+2020-05-04 20:11:19,595 [INFO] DbBoardsPdsc:92 - Found 40 items
+2020-05-04 20:11:19,599 [INFO] DbBoardsPdsc:92 - Found 39 items
+2020-05-04 20:11:19,600 [INFO] DbBoardsPdsc:92 - Found 2 items
+2020-05-04 20:11:19,602 [INFO] DbBoardsPdsc:92 - Found 4 items
+2020-05-04 20:11:19,604 [WARN] DbBoardsPdsc:256 - Board STM32H7B3I-DK: unknown feature type=Audio, name=, username=Audio stereo codec with Headphone Amp (CS42L51-CNZ), n=1
+2020-05-04 20:11:19,604 [WARN] DbBoardsPdsc:256 - Board STM32H7B3I-DK: unknown feature type=WIFI, name=, username=WIFI 802.11 b/g/n, n=1
+2020-05-04 20:11:19,605 [WARN] DbBoardsPdsc:256 - Board STM32H7B3I-EVAL: unknown feature type=Audio, name=, username=Multi-Channel Audio Codec (CS42L51-CNZ), n=1
+2020-05-04 20:11:19,605 [WARN] DbBoardsPdsc:256 - Board STM32H7B3I-EVAL: unknown feature type=Meter, name=, username=Power-metering and Temperature-monitoring with sigma-delta modulators, n=1
+2020-05-04 20:11:19,605 [WARN] DbBoardsPdsc:256 - Board STM32H7B3I-EVAL: unknown feature type=WIFI, name=, username=WIFI 802.11 a/b/g/n, n=1
+2020-05-04 20:11:19,606 [WARN] DbBoardsPdsc:256 - Board STM32H7B3I-EVAL: unknown feature type=Motor, name=, username=Motor Control, n=1
+2020-05-04 20:11:19,614 [INFO] DbBoardsJson:80 - JSON generation date=Tue Feb 11 15:53:55 EET 2020 (1581429235)
+2020-05-04 20:11:19,617 [INFO] DbBoards:120 - Found 145 boards (142 are supported by CubeMX)
+2020-05-04 20:11:19,618 [WARN] DbBoards:130 - board NUCLEO-H743ZI2 has no document id list !
+2020-05-04 20:11:19,618 [WARN] DbBoards:130 - board NUCLEO-L4P5ZG has no document id list !
+2020-05-04 20:11:19,619 [WARN] DbBoards:130 - board P-NUCLEO-WB55-Nucleo has no document id list !
+2020-05-04 20:11:19,619 [WARN] DbBoards:130 - board P-NUCLEO-WB55-USBDongle has no document id list !
+2020-05-04 20:11:19,619 [WARN] DbBoards:130 - board NUCLEO-WB35CE has no document id list !
+2020-05-04 20:11:19,619 [WARN] DbBoards:130 - board STM32F401C-DISCO has no document id list !
+2020-05-04 20:11:19,619 [WARN] DbBoards:130 - board STM32F769I-DISC1 has no document id list !
+2020-05-04 20:11:19,620 [WARN] DbBoards:152 - board STM32F723E-DISCO / document id not found: 4598
+2020-05-04 20:11:19,620 [WARN] DbBoards:130 - board STM32L-DISCOVERY has no document id list !
+2020-05-04 20:11:19,620 [WARN] DbBoards:152 - board STM32L496G-DISCO / document id not found: 4598
+2020-05-04 20:11:19,620 [WARN] DbBoards:152 - board STM32H747I-DISCO / document id not found: 4598
+2020-05-04 20:11:19,620 [WARN] DbBoards:130 - board STM32H747I-DISC1 has no document id list !
+2020-05-04 20:11:19,620 [WARN] DbBoards:152 - board STM32H745I-DISCO / document id not found: 4598
+2020-05-04 20:11:19,621 [WARN] DbBoards:152 - board STM32H750B-DK / document id not found: 4598
+2020-05-04 20:11:19,621 [WARN] DbBoards:152 - board STM32H7B3I-DK / document id not found: 4598
+2020-05-04 20:11:19,621 [WARN] DbBoards:152 - board STM32L4R9I-DISCO / document id not found: 4598
+2020-05-04 20:11:19,621 [WARN] DbBoards:130 - board STM32MP157A-DK1 has no document id list !
+2020-05-04 20:11:19,621 [WARN] DbBoards:152 - board STM32L562E-DK / document id not found: 4598
+2020-05-04 20:11:19,621 [WARN] DbBoards:130 - board STM32L4P5G-DK has no document id list !
+2020-05-04 20:11:19,621 [WARN] DbBoards:130 - board STM32091C-EVAL has no document id list !
+2020-05-04 20:11:19,621 [WARN] DbBoards:130 - board STM3210C-EVAL has no document id list !
+2020-05-04 20:11:19,621 [WARN] DbBoards:130 - board STM32100E-EVAL has no document id list !
+2020-05-04 20:11:19,621 [WARN] DbBoards:130 - board STM3221G-EVAL has no document id list !
+2020-05-04 20:11:19,621 [WARN] DbBoards:130 - board STM32303C-EVAL has no document id list !
+2020-05-04 20:11:19,622 [WARN] DbBoards:130 - board STM32L152D-EVAL has no document id list !
+2020-05-04 20:11:19,622 [WARN] DbBoards:130 - board STM32746G-EVAL2 has no document id list !
+2020-05-04 20:11:19,622 [WARN] DbBoards:130 - board STM32F779I-EVAL has no document id list !
+2020-05-04 20:11:19,623 [WARN] DbBoards:130 - board STM32479I-EVAL has no document id list !
+2020-05-04 20:11:19,623 [WARN] DbBoards:130 - board STM32H743I-EVAL2 has no document id list !
+2020-05-04 20:11:19,623 [WARN] DbBoards:152 - board STM32H7B3I-EVAL / document id not found: 4596
+2020-05-04 20:11:19,623 [WARN] DbBoards:130 - board STM32H753I-EVAL2 has no document id list !
+2020-05-04 20:11:19,623 [WARN] DbBoards:130 - board STM32G474E-EVAL1 has no document id list !
+2020-05-04 20:11:19,623 [WARN] DbBoards:130 - board STEVAL-BFA001V1B has no document id list !
+2020-05-04 20:11:19,623 [WARN] DbBoards:130 - board STEVAL-BFA001V2B has no document id list !
+2020-05-04 20:11:19,623 [WARN] DbBoards:130 - board STEVAL-MKSBOX1V1 has no document id list !
+2020-05-04 20:11:19,623 [WARN] DbBoards:130 - board STEVAL-STWINKT1 has no document id list !
+2020-05-04 20:11:19,623 [WARN] DbBoards:130 - board STEVAL-IDP005V1 has no document id list !
+2020-05-04 20:11:19,623 [WARN] DbBoards:130 - board STEVAL-IDP005V2 has no document id list !
+2020-05-04 20:11:20,284 [INFO] ApiDb:158 - Load user favorites file C:\Users\alexa/.stm32cubeide/favorites.boards.txt: 0 item(s)
+2020-05-04 20:11:20,285 [INFO] ApiDb:163 - User favorites Boards=[]
+2020-05-04 20:11:20,285 [INFO] DbBoards:209 - Set 0 / 0 favorites Boards
+2020-05-04 20:11:20,418 [INFO] LoadUrlFilesThread:161 - End of LoadServerUrlFiles without Thread
+2020-05-04 20:11:20,418 [INFO] MultiScanPanel:739 - Refresh data is succesful
+2020-05-04 20:11:20,426 [INFO] McuFilterPanel:249 - Update 0 favorites MCUs
+2020-05-04 20:11:20,603 [INFO] ServerAccessManage:348 - Download File 
+2020-05-04 20:11:20,606 [INFO] LoadUrlFilesThread:161 - End of LoadServerUrlFiles without Thread
+2020-05-04 20:11:20,620 [INFO] BoardDetailPanel:180 - Set advertising image to C:/Users/alexa/STM32Cube/Repository/\PR_STM32Cube_GitHub_0320_V1.png
+2020-05-04 20:11:20,636 [INFO] BoardFilterPanel:211 - Update 0 favorites Boards
+2020-05-04 20:11:21,923 [INFO] CrossSelectorPresenter:1319 - Cross Selector saved comparison directory: C:\Users\alexa\.stmcufinder\plugins\mcufinder\mcu\cs_comparisons_mx
+2020-05-04 20:13:16,024 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] withoutVersionV1.8.0
+2020-05-04 20:13:33,389 [INFO] MainUpdater:2230 - connection check result : 10
+2020-05-04 20:13:33,390 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Successfull proxy connection.
+2020-05-04 20:13:59,108 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] File copied successfully!!
+2020-05-04 20:14:04,983 [INFO] MainUpdater:2230 - connection check result : 10
+2020-05-04 20:14:05,044 [INFO] MicroXplorer:390 - Change Database Path : 
+2020-05-04 20:14:05,044 [INFO] MicroXplorer:420 - Change Database Version : DB.5.0.60
+2020-05-04 20:14:05,045 [INFO] PinOutPanel:1420 - setPackage(No Configuration,No Configuration)
+2020-05-04 20:14:05,046 [INFO] UtilMem:74 - Begin LoadConfig() Used Memory: 486156848 Bytes (653262848)
+2020-05-04 20:14:05,046 [INFO] MicroXplorer:390 - Change Database Path : 
+2020-05-04 20:14:05,046 [INFO] MicroXplorer:420 - Change Database Version : DB.5.0.60
+2020-05-04 20:14:05,047 [INFO] OpenFileManager:274 - Change cursor
+2020-05-04 20:14:06,784 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) Unable to find key (Mcu.ThirdPartyNb) in loaded IOC file
+2020-05-04 20:14:06,784 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) Unable to find key (Mcu.PinsNb) in loaded IOC file
+2020-05-04 20:14:06,785 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) Unable to find key (Mcu.IPNb) in loaded IOC file
+2020-05-04 20:14:07,052 [INFO] UtilMem:74 - End LoadConfig() Used Memory: 381502080 Bytes (653262848)
+2020-05-04 20:14:07,067 [INFO] ThirdPartyDb:295 - Open Third Party DataBase File (C:/Users/alexa/.stm32cubemx/plugins/thirdparty/db/thirdparties_db.xml) : 3 ms. number of Sw pack : 11
+2020-05-04 20:14:07,082 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1587658519581]
+2020-05-04 20:14:07,082 [INFO] ThirdPartyModel:521 - Component with status : MCU_INCOMPATIBLE for condition : OS Tick GTIM id : 1587658518926
+2020-05-04 20:14:07,082 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1587658522208, 1587658519949]
+2020-05-04 20:14:07,132 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE1 5.0.0
+2020-05-04 20:14:07,132 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SUBG2 1.1.0
+2020-05-04 20:14:07,132 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-GNSS1 4.1.0
+2020-05-04 20:14:07,132 [INFO] ThirdParty:899 - CMSIS Pack Vendor :ARM CMSIS 5.7.0
+2020-05-04 20:14:07,132 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC4 1.5.2
+2020-05-04 20:14:07,132 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-MEMS1 7.1.0
+2020-05-04 20:14:07,132 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics FreeRTOS 0.0.1
+2020-05-04 20:14:07,133 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-ALGOBUILD 1.0.0
+2020-05-04 20:14:07,133 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE2 1.0.0
+2020-05-04 20:14:07,332 [INFO] PinOutPanel:1420 - setPackage(No Configuration,No Configuration)
+2020-05-04 20:14:07,334 [INFO] PinOutPanel:1420 - setPackage(STM32F105RBTx,LQFP64)
+2020-05-04 20:14:07,635 [INFO] UtilMem:74 - Before build in PCC Used Memory: 502908392 Bytes (653262848)
+2020-05-04 20:14:08,018 [INFO] SharedServices:71 - Folder for power plug-in: C:/Users/alexa/.stm32cubemx/plugins/power
+2020-05-04 20:14:08,076 [INFO] SharedServices:71 - Folder for power plug-in: C:/Users/alexa/.stm32cubemx/plugins/power
+2020-05-04 20:14:08,116 [INFO] SharedServices:71 - Folder for power plug-in: C:/Users/alexa/.stm32cubemx/plugins/power
+2020-05-04 20:14:08,120 [INFO] SharedServices:71 - Folder for power plug-in: C:/Users/alexa/.stm32cubemx/plugins/power
+2020-05-04 20:14:08,327 [INFO] UtilMem:74 - After build in PCC Used Memory: 297392504 Bytes (653262848)
+2020-05-04 20:14:08,342 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-05-04 20:14:08,342 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-05-04 20:14:08,342 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-05-04 20:14:08,343 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-05-04 20:14:08,343 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-05-04 20:14:08,343 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-05-04 20:14:08,343 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-05-04 20:14:08,343 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-05-04 20:14:08,344 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-05-04 20:14:08,344 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-05-04 20:14:08,344 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-05-04 20:14:08,344 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-05-04 20:14:08,344 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-05-04 20:14:08,344 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-05-04 20:14:08,344 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-05-04 20:14:08,345 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-05-04 20:14:08,345 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-05-04 20:14:08,345 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-05-04 20:14:08,345 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-05-04 20:14:08,346 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-05-04 20:14:08,346 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-05-04 20:14:08,346 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-05-04 20:14:08,346 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-05-04 20:14:08,346 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-05-04 20:14:08,347 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-05-04 20:14:08,347 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-05-04 20:14:08,347 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-05-04 20:14:08,347 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-05-04 20:14:08,347 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-05-04 20:14:08,348 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-05-04 20:14:08,348 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-05-04 20:14:08,348 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-05-04 20:14:08,348 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-05-04 20:14:08,349 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-05-04 20:14:08,349 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-05-04 20:14:08,349 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-05-04 20:14:08,349 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-05-04 20:14:08,350 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-05-04 20:14:08,387 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] toolchainItems.length=====1
+2020-05-04 20:14:08,496 [INFO] OpenFileManager:294 - Restore cursor
+2020-05-04 20:14:08,748 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 329351232 Bytes (653262848)
+2020-05-04 20:14:08,826 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 334611936 Bytes (653262848)
+2020-05-04 20:14:09,129 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: NVIC
+2020-05-04 20:14:09,130 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: SYS
+2020-05-04 20:14:09,130 [INFO] CodeGenerator:603 - code generatio: config db path: C:\Program Files\STMicroelectronics\STM32Cube\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.6.0.202002181639\\db\
+2020-05-04 20:14:09,443 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\alexa\STM32CubeIDE\workspace_1.3.0\24C64_STM32F105RB-I2C1-R\MXTmpFiles\license.tmp_save
+2020-05-04 20:14:09,742 [INFO] CodeEngine:206 - Generated code: C:\Users\alexa\STM32CubeIDE\workspace_1.3.0\24C64_STM32F105RB-I2C1-R\MXTmpFiles\license.tmp
+2020-05-04 20:14:09,871 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Debug : prepare data for NVIC
+2020-05-04 20:14:09,872 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line test
+2020-05-04 20:14:09,925 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\alexa\STM32CubeIDE\workspace_1.3.0\24C64_STM32F105RB-I2C1-R\Core\Src\stm32f1xx_it.c_save
+2020-05-04 20:14:10,088 [INFO] CodeEngine:206 - Generated code: C:\Users\alexa\STM32CubeIDE\workspace_1.3.0\24C64_STM32F105RB-I2C1-R\Core\Src\stm32f1xx_it.c
+2020-05-04 20:14:10,128 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\alexa\STM32CubeIDE\workspace_1.3.0\24C64_STM32F105RB-I2C1-R\Core\Inc\stm32f1xx_it.h_save
+2020-05-04 20:14:10,233 [INFO] CodeEngine:206 - Generated code: C:\Users\alexa\STM32CubeIDE\workspace_1.3.0\24C64_STM32F105RB-I2C1-R\Core\Inc\stm32f1xx_it.h
+2020-05-04 20:14:10,283 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\alexa\STM32CubeIDE\workspace_1.3.0\24C64_STM32F105RB-I2C1-R\Core\Src\stm32f1xx_hal_msp.c_save
+2020-05-04 20:14:10,442 [INFO] CodeEngine:206 - Generated code: C:\Users\alexa\STM32CubeIDE\workspace_1.3.0\24C64_STM32F105RB-I2C1-R\Core\Src\stm32f1xx_hal_msp.c
+2020-05-04 20:14:10,492 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\alexa\STM32CubeIDE\workspace_1.3.0\24C64_STM32F105RB-I2C1-R\MXTmpFiles\system.tmp_save
+2020-05-04 20:14:10,557 [INFO] CodeEngine:206 - Generated code: C:\Users\alexa\STM32CubeIDE\workspace_1.3.0\24C64_STM32F105RB-I2C1-R\MXTmpFiles\system.tmp
+2020-05-04 20:14:10,610 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\alexa\STM32CubeIDE\workspace_1.3.0\24C64_STM32F105RB-I2C1-R\Core\Inc\stm32f1xx_hal_conf.h_save
+2020-05-04 20:14:10,721 [INFO] CodeEngine:206 - Generated code: C:\Users\alexa\STM32CubeIDE\workspace_1.3.0\24C64_STM32F105RB-I2C1-R\Core\Inc\stm32f1xx_hal_conf.h
+2020-05-04 20:14:10,799 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\alexa\STM32CubeIDE\workspace_1.3.0\24C64_STM32F105RB-I2C1-R\Core\Inc\main.h_save
+2020-05-04 20:14:10,901 [INFO] CodeEngine:206 - Generated code: C:\Users\alexa\STM32CubeIDE\workspace_1.3.0\24C64_STM32F105RB-I2C1-R\Core\Inc\main.h
+2020-05-04 20:14:10,943 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\alexa\STM32CubeIDE\workspace_1.3.0\24C64_STM32F105RB-I2C1-R\Core\Src\main.c_save
+2020-05-04 20:14:11,164 [INFO] CodeEngine:206 - Generated code: C:\Users\alexa\STM32CubeIDE\workspace_1.3.0\24C64_STM32F105RB-I2C1-R\Core\Src\main.c
+2020-05-04 20:14:12,150 [INFO] ProjectBuilder:2002 - Time for Copy HAL[1] : 431mS.
+2020-05-04 20:14:12,154 [INFO] ProjectBuilder:2727 - Project Generator version: 3.7.1
+2020-05-04 20:14:12,561 [INFO] ConfigFileManager:1066 - The Die is : DIE418
+2020-05-04 20:14:22,668 [INFO] ProjectBuilder:2894 - Time for Generating toolchain IDE Files: 10514mS.
+2020-05-04 20:14:22,669 [INFO] ProjectBuilder:1878 - Time for Copy CMSIS : 0mS.
+2020-05-04 20:14:22,672 [INFO] ProjectBuilder:1878 - Time for Copy CMSIS : 1mS.
+2020-05-04 20:14:57,788 [WARN] IP:1936 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2020-05-04 20:14:57,788 [WARN] IP:1936 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2020-05-04 20:14:57,799 [WARN] IP:1936 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2020-05-04 20:14:57,799 [WARN] IP:1936 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2020-05-04 20:14:57,800 [WARN] IP:1936 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2020-05-04 20:14:57,800 [WARN] IP:1936 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2020-05-04 20:14:57,899 [WARN] IP:1936 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2020-05-04 20:14:57,899 [WARN] IP:1936 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2020-05-04 20:14:57,901 [WARN] IP:1936 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2020-05-04 20:14:57,901 [WARN] IP:1936 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2020-05-04 20:14:57,909 [WARN] IP:1936 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2020-05-04 20:14:57,909 [WARN] IP:1936 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2020-05-04 20:15:02,999 [WARN] IP:1936 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2020-05-04 20:15:02,999 [WARN] IP:1936 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2020-05-04 20:15:03,045 [WARN] IP:1936 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2020-05-04 20:15:03,045 [WARN] IP:1936 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2020-05-04 20:15:03,052 [WARN] IP:1936 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2020-05-04 20:15:03,052 [WARN] IP:1936 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2020-05-04 20:15:03,057 [WARN] IP:1936 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2020-05-04 20:15:03,057 [WARN] IP:1936 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2020-05-04 20:15:03,087 [WARN] IP:1936 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2020-05-04 20:15:03,087 [WARN] IP:1936 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2020-05-04 20:15:03,097 [WARN] IP:1936 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2020-05-04 20:15:03,097 [WARN] IP:1936 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2020-05-04 20:15:03,137 [WARN] IP:1936 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2020-05-04 20:15:03,137 [WARN] IP:1936 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2020-05-04 20:15:03,140 [WARN] IP:1936 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2020-05-04 20:15:03,140 [WARN] IP:1936 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2020-05-04 20:15:49,470 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 511050816 Bytes (747634688)
+2020-05-04 20:17:55,493 [INFO] ServerAccessManage:348 - Download File ARM.CMSIS.5.7.0.pack
+2020-05-04 20:18:21,354 [INFO] MainUpdater:1316 - ProgressBar Return now
+2020-05-04 20:18:21,354 [INFO] LoadServerPackagesThread:160 - End of LoadServerPackages Thread
+2020-05-04 20:18:21,407 [INFO] CheckServerUpdateThread:92 - End of CheckServer Thread
+2020-05-04 20:18:28,928 [INFO] ServerAccessManage:348 - Download File ARM.CMSIS.5.7.0.pack
+2020-05-04 20:19:03,701 [INFO] MainUpdater:1316 - ProgressBar Return now
+2020-05-04 20:19:03,701 [INFO] LoadServerPackagesThread:160 - End of LoadServerPackages Thread
+2020-05-04 20:19:03,746 [INFO] CheckServerUpdateThread:92 - End of CheckServer Thread
+2020-05-04 20:19:05,936 [INFO] BinarySerializedPackPreferences:66 - Sw Pack name : STMicroelectronics.X-CUBE-BLE1.5.0.0 preferred : false
+2020-05-04 20:19:05,936 [INFO] BinarySerializedPackPreferences:66 - Sw Pack name : STMicroelectronics.X-CUBE-SUBG2.1.1.0 preferred : false
+2020-05-04 20:19:05,936 [INFO] BinarySerializedPackPreferences:66 - Sw Pack name : STMicroelectronics.X-CUBE-GNSS1.4.1.0 preferred : false
+2020-05-04 20:19:05,936 [INFO] BinarySerializedPackPreferences:66 - Sw Pack name : ARM.CMSIS.5.7.0 preferred : false
+2020-05-04 20:19:05,936 [INFO] BinarySerializedPackPreferences:66 - Sw Pack name : STMicroelectronics.X-CUBE-TOUCHGFX.4.13.0 preferred : false
+2020-05-04 20:19:05,936 [INFO] BinarySerializedPackPreferences:66 - Sw Pack name : STMicroelectronics.X-CUBE-NFC4.1.5.2 preferred : false
+2020-05-04 20:19:05,936 [INFO] BinarySerializedPackPreferences:66 - Sw Pack name : STMicroelectronics.X-CUBE-MEMS1.7.1.0 preferred : false
+2020-05-04 20:19:05,936 [INFO] BinarySerializedPackPreferences:66 - Sw Pack name : STMicroelectronics.FreeRTOS.0.0.1 preferred : false
+2020-05-04 20:19:05,936 [INFO] BinarySerializedPackPreferences:66 - Sw Pack name : STMicroelectronics.X-CUBE-ALGOBUILD.1.0.0 preferred : false
+2020-05-04 20:19:05,936 [INFO] BinarySerializedPackPreferences:66 - Sw Pack name : STMicroelectronics.X-CUBE-AI.5.0.0 preferred : false
+2020-05-04 20:19:05,937 [INFO] BinarySerializedPackPreferences:66 - Sw Pack name : STMicroelectronics.X-CUBE-BLE2.1.0.0 preferred : false
+2020-05-04 20:19:18,559 [WARN] ComponentDependencyTree:129 - Do not consider in dependencies device or IDE component: 1587658519703
+2020-05-04 20:19:18,559 [WARN] ComponentDependencyTree:129 - Do not consider in dependencies device or IDE component: 1587658519705
+2020-05-04 20:19:18,559 [WARN] ComponentDependencyTree:129 - Do not consider in dependencies device or IDE component: 1587658519707
+2020-05-04 20:19:18,559 [WARN] ComponentDependencyTree:129 - Do not consider in dependencies device or IDE component: 1587658519709
+2020-05-04 20:19:18,559 [WARN] ComponentDependencyTree:129 - Do not consider in dependencies device or IDE component: 1587658519620
+2020-05-04 20:19:18,559 [WARN] ComponentDependencyTree:129 - Do not consider in dependencies device or IDE component: 1587658519716
+2020-05-04 20:19:18,560 [WARN] ComponentDependencyTree:129 - Do not consider in dependencies device or IDE component: 1587658519718
+2020-05-04 20:19:18,560 [WARN] ComponentDependencyTree:129 - Do not consider in dependencies device or IDE component: 1587658519622
+2020-05-04 20:19:18,560 [WARN] ComponentDependencyTree:129 - Do not consider in dependencies device or IDE component: 1587658519725
+2020-05-04 20:19:18,560 [WARN] ComponentDependencyTree:129 - Do not consider in dependencies device or IDE component: 1587658519727
+2020-05-04 20:19:18,560 [WARN] ComponentDependencyTree:129 - Do not consider in dependencies device or IDE component: 1587658519729
+2020-05-04 20:19:18,560 [WARN] ComponentDependencyTree:129 - Do not consider in dependencies device or IDE component: 1587658519731
+2020-05-04 20:19:18,560 [WARN] ComponentDependencyTree:129 - Do not consider in dependencies device or IDE component: 1587658519733
+2020-05-04 20:19:18,560 [WARN] ComponentDependencyTree:129 - Do not consider in dependencies device or IDE component: 1587658519735
+2020-05-04 20:19:18,560 [WARN] ComponentDependencyTree:129 - Do not consider in dependencies device or IDE component: 1587658519737
+2020-05-04 20:19:27,259 [INFO] ServerAccessManage:348 - Download File ARM.CMSIS.5.7.0.pack
+2020-05-04 20:19:40,829 [INFO] LoadServerPackagesThread:160 - End of LoadServerPackages Thread
+2020-05-04 20:19:40,829 [INFO] MainUpdater:1316 - ProgressBar Return now
+2020-05-04 20:19:40,884 [INFO] CheckServerUpdateThread:92 - End of CheckServer Thread
+2020-05-04 20:19:51,868 [INFO] BinarySerializedPackPreferences:66 - Sw Pack name : STMicroelectronics.X-CUBE-BLE1.5.0.0 preferred : false
+2020-05-04 20:19:51,868 [INFO] BinarySerializedPackPreferences:66 - Sw Pack name : STMicroelectronics.X-CUBE-SUBG2.1.1.0 preferred : false
+2020-05-04 20:19:51,869 [INFO] BinarySerializedPackPreferences:66 - Sw Pack name : STMicroelectronics.X-CUBE-GNSS1.4.1.0 preferred : false
+2020-05-04 20:19:51,869 [INFO] BinarySerializedPackPreferences:66 - Sw Pack name : ARM.CMSIS.5.7.0 preferred : false
+2020-05-04 20:19:51,869 [INFO] BinarySerializedPackPreferences:66 - Sw Pack name : STMicroelectronics.X-CUBE-TOUCHGFX.4.13.0 preferred : false
+2020-05-04 20:19:51,869 [INFO] BinarySerializedPackPreferences:66 - Sw Pack name : STMicroelectronics.X-CUBE-NFC4.1.5.2 preferred : false
+2020-05-04 20:19:51,869 [INFO] BinarySerializedPackPreferences:66 - Sw Pack name : STMicroelectronics.X-CUBE-MEMS1.7.1.0 preferred : false
+2020-05-04 20:19:51,869 [INFO] BinarySerializedPackPreferences:66 - Sw Pack name : STMicroelectronics.FreeRTOS.0.0.1 preferred : false
+2020-05-04 20:19:51,869 [INFO] BinarySerializedPackPreferences:66 - Sw Pack name : STMicroelectronics.X-CUBE-ALGOBUILD.1.0.0 preferred : false
+2020-05-04 20:19:51,869 [INFO] BinarySerializedPackPreferences:66 - Sw Pack name : STMicroelectronics.X-CUBE-AI.5.0.0 preferred : false
+2020-05-04 20:19:51,869 [INFO] BinarySerializedPackPreferences:66 - Sw Pack name : STMicroelectronics.X-CUBE-BLE2.1.0.0 preferred : false
+2020-05-04 20:20:34,571 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 361778784 Bytes (769654784)
+2020-05-04 20:20:38,547 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 371531688 Bytes (769654784)
+2020-05-04 20:20:38,752 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 341143992 Bytes (769654784)
+2020-05-04 20:20:38,914 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: NVIC
+2020-05-04 20:20:38,914 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: SYS
+2020-05-04 20:20:38,914 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: GPIO
+2020-05-04 20:20:38,914 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: I2C
+2020-05-04 20:20:38,915 [INFO] CodeGenerator:603 - code generatio: config db path: C:\Program Files\STMicroelectronics\STM32Cube\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.6.0.202002181639\\db\
+2020-05-04 20:20:38,916 [WARN] IP:1936 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2020-05-04 20:20:38,916 [WARN] IP:1936 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2020-05-04 20:20:39,122 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\alexa\STM32CubeIDE\workspace_1.3.0\24C64_STM32F105RB-I2C1-R\MXTmpFiles\license.tmp_save
+2020-05-04 20:20:39,199 [INFO] CodeEngine:206 - Generated code: C:\Users\alexa\STM32CubeIDE\workspace_1.3.0\24C64_STM32F105RB-I2C1-R\MXTmpFiles\license.tmp
+2020-05-04 20:20:39,398 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\alexa\STM32CubeIDE\workspace_1.3.0\24C64_STM32F105RB-I2C1-R\MXTmpFiles\gpio.tmp_save
+2020-05-04 20:20:39,523 [INFO] CodeEngine:206 - Generated code: C:\Users\alexa\STM32CubeIDE\workspace_1.3.0\24C64_STM32F105RB-I2C1-R\MXTmpFiles\gpio.tmp
+2020-05-04 20:20:39,547 [ERROR] IPConfigManager:1272 - ERROR: the RefConfig I2C_Analogue is not available in your config.xml file
+2020-05-04 20:20:39,547 [ERROR] IPConfigManager:1272 - ERROR: the RefConfig I2C_DigitalFolter is not available in your config.xml file
+2020-05-04 20:20:39,644 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2020-05-04 20:20:39,645 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Debug : prepare data for I2C
+2020-05-04 20:20:39,645 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line test
+2020-05-04 20:20:39,646 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Debug : prepare data for NVIC
+2020-05-04 20:20:39,647 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line test
+2020-05-04 20:20:39,683 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\alexa\STM32CubeIDE\workspace_1.3.0\24C64_STM32F105RB-I2C1-R\Core\Src\stm32f1xx_it.c_save
+2020-05-04 20:20:39,781 [INFO] CodeEngine:206 - Generated code: C:\Users\alexa\STM32CubeIDE\workspace_1.3.0\24C64_STM32F105RB-I2C1-R\Core\Src\stm32f1xx_it.c
+2020-05-04 20:20:39,805 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\alexa\STM32CubeIDE\workspace_1.3.0\24C64_STM32F105RB-I2C1-R\Core\Inc\stm32f1xx_it.h_save
+2020-05-04 20:20:39,886 [INFO] CodeEngine:206 - Generated code: C:\Users\alexa\STM32CubeIDE\workspace_1.3.0\24C64_STM32F105RB-I2C1-R\Core\Inc\stm32f1xx_it.h
+2020-05-04 20:20:39,915 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\alexa\STM32CubeIDE\workspace_1.3.0\24C64_STM32F105RB-I2C1-R\MXTmpFiles\system.tmp_save
+2020-05-04 20:20:39,967 [INFO] CodeEngine:206 - Generated code: C:\Users\alexa\STM32CubeIDE\workspace_1.3.0\24C64_STM32F105RB-I2C1-R\MXTmpFiles\system.tmp
+2020-05-04 20:20:39,989 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\alexa\STM32CubeIDE\workspace_1.3.0\24C64_STM32F105RB-I2C1-R\Core\Inc\stm32_assert.h_save
+2020-05-04 20:20:40,050 [INFO] CodeEngine:206 - Generated code: C:\Users\alexa\STM32CubeIDE\workspace_1.3.0\24C64_STM32F105RB-I2C1-R\Core\Inc\stm32_assert.h
+2020-05-04 20:20:40,058 [WARN] IPConfigManager:2341 - Warning: the RefConfig RCC_ClockConfig is not available in your config.xml file
+2020-05-04 20:20:40,058 [WARN] IPConfigManager:2341 - Warning: the RefConfig RCC_MCOConfig is not available in your config.xml file
+2020-05-04 20:20:40,058 [WARN] IPConfigManager:2341 - Warning: the RefConfig RCC_interrupt_Time_SYSTICK_Config is not available in your config.xml file
+2020-05-04 20:20:40,058 [WARN] IPConfigManager:2341 - Warning: the RefConfig RCC_SYSTICK_CONFIG is not available in your config.xml file
+2020-05-04 20:20:40,058 [WARN] IPConfigManager:2341 - Warning: the RefConfig RCC_HSE_PREDIV2_CONFIG is not available in your config.xml file
+2020-05-04 20:20:40,058 [WARN] IPConfigManager:2341 - Warning: the RefConfig RCC_PLLI2S_CONFIG is not available in your config.xml file
+2020-05-04 20:20:40,058 [WARN] IPConfigManager:2341 - Warning: the RefConfig RCC_PLLI2S_ENABLE is not available in your config.xml file
+2020-05-04 20:20:40,062 [WARN] IPConfigManager:2701 - IP not found : gpio
+2020-05-04 20:20:40,063 [WARN] CodeGenerator:2649 - IP not found : gpio
+2020-05-04 20:20:40,093 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\alexa\STM32CubeIDE\workspace_1.3.0\24C64_STM32F105RB-I2C1-R\Core\Inc\main.h_save
+2020-05-04 20:20:40,167 [INFO] CodeEngine:206 - Generated code: C:\Users\alexa\STM32CubeIDE\workspace_1.3.0\24C64_STM32F105RB-I2C1-R\Core\Inc\main.h
+2020-05-04 20:20:40,197 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\alexa\STM32CubeIDE\workspace_1.3.0\24C64_STM32F105RB-I2C1-R\Core\Src\main.c_save
+2020-05-04 20:20:40,292 [INFO] CodeEngine:206 - Generated code: C:\Users\alexa\STM32CubeIDE\workspace_1.3.0\24C64_STM32F105RB-I2C1-R\Core\Src\main.c
+2020-05-04 20:20:40,986 [INFO] ProjectBuilder:2002 - Time for Copy HAL[1] : 204mS.
+2020-05-04 20:20:40,988 [INFO] ProjectBuilder:2727 - Project Generator version: 3.7.1
+2020-05-04 20:20:41,173 [INFO] ConfigFileManager:1066 - The Die is : DIE418
+2020-05-04 20:20:42,884 [INFO] ProjectBuilder:2894 - Time for Generating toolchain IDE Files: 1896mS.
+2020-05-04 20:20:42,885 [INFO] ProjectBuilder:1878 - Time for Copy CMSIS : 0mS.
+2020-05-04 20:20:42,887 [INFO] ProjectBuilder:1878 - Time for Copy CMSIS : 0mS.

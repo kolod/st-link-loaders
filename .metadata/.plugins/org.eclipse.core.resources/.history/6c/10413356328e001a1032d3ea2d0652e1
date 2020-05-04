@@ -1,0 +1,185 @@
+// Copyright (c) 2020 Alexandr Kolodkin <alexandr.kolodkin@gmail.com>
+// All rights reserved.
+
+
+#include "loader.h"
+
+#include <stddef.h>
+#include <stdint.h>
+#include <stdbool.h>
+
+#include "config.h"
+
+#define VECT_TAB_OFFSET  0x00000000U
+
+uint32_t SystemCoreClock;
+const uint8_t AHBPrescTable[] = {0, 0, 0, 0, 0, 0, 0, 0, 1, 2, 3, 4, 6, 7, 8, 9};
+const uint8_t APBPrescTable[] = {0, 0, 0, 0, 1, 2, 3, 4};
+
+void Error_Handler(void) {
+	for(;;);
+}
+
+static inline void SystemClock_Config(void) {
+	LL_FLASH_SetLatency(LL_FLASH_LATENCY_0);
+	if (LL_FLASH_GetLatency() != LL_FLASH_LATENCY_0) Error_Handler();
+
+	LL_RCC_HSI_SetCalibTrimming(16);
+	LL_RCC_HSI_Enable();
+
+	// Wait till HSI is ready
+	while(LL_RCC_HSI_IsReady() != 1);
+
+	LL_RCC_SetAHBPrescaler(LL_RCC_SYSCLK_DIV_1);
+	LL_RCC_SetAPB1Prescaler(LL_RCC_APB1_DIV_1);
+	LL_RCC_SetAPB2Prescaler(LL_RCC_APB2_DIV_1);
+	LL_RCC_SetSysClkSource(LL_RCC_SYS_CLKSOURCE_HSI);
+
+	// Wait till System clock is ready
+	while(LL_RCC_GetSysClkSource() != LL_RCC_SYS_CLKSOURCE_STATUS_HSI);
+}
+
+// I2C1 GPIO Configuration
+//  PB8   ------> I2C1_SCL
+//  PB9   ------> I2C1_SDA
+static inline void MX_I2C1_Init(void) {
+
+	LL_GPIO_InitTypeDef GPIO_InitStruct = {
+		.Pin              = LL_GPIO_PIN_8|LL_GPIO_PIN_9,
+		.Mode             = LL_GPIO_MODE_ALTERNATE,
+		.Speed            = LL_GPIO_SPEED_FREQ_HIGH,
+		.OutputType       = LL_GPIO_OUTPUT_OPENDRAIN,
+		.Pull             = 0
+	};
+
+	LL_GPIO_Init(GPIOB, &GPIO_InitStruct);
+	LL_GPIO_AF_EnableRemap_I2C1();
+
+	// Peripheral clock enable
+	LL_APB1_GRP1_EnableClock(LL_APB1_GRP1_PERIPH_I2C1);
+
+	// I2C Initialization
+	LL_I2C_DisableOwnAddress2(I2C1);
+	LL_I2C_DisableGeneralCall(I2C1);
+	LL_I2C_EnableClockStretching(I2C1);
+
+	LL_I2C_InitTypeDef I2C_InitStruct = {
+		.PeripheralMode   = LL_I2C_MODE_I2C,
+		.ClockSpeed       = 100000,
+		.DutyCycle        = LL_I2C_DUTYCYCLE_2,
+		.OwnAddress1      = 0,
+		.TypeAcknowledge  = LL_I2C_ACK,
+		.OwnAddrSize      = LL_I2C_OWNADDRESS1_7BIT
+	};
+
+	LL_I2C_Init(I2C1, &I2C_InitStruct);
+	LL_I2C_SetOwnAddress2(I2C1, 0);
+}
+
+void MySystemInit (void) {
+	RCC->CR   |= 0x00000001U; // Set HSION bit
+	RCC->CFGR &= 0xF0FF0000U; // Reset SW, HPRE, PPRE1, PPRE2, ADCPRE and MCO bits
+	RCC->CR   &= 0xFEF6FFFFU; // Reset HSEON, CSSON and PLLON bits
+	RCC->CR   &= 0xFFFBFFFFU; // Reset HSEBYP bit
+	RCC->CFGR &= 0xFF80FFFFU; // Reset PLLSRC, PLLXTPRE, PLLMUL and USBPRE/OTGFSPRE bits
+	RCC->CR   &= 0xEBFFFFFFU; // Reset PLL2ON and PLL3ON bits
+	RCC->CIR   = 0x00FF0000U; // Disable all interrupts and clear pending bits
+	RCC->CFGR2 = 0x00000000U; // Reset CFGR2 register
+
+	// Reset of all peripherals, Initializes the Flash interface
+	LL_APB2_GRP1_EnableClock(LL_APB2_GRP1_PERIPH_AFIO);
+	LL_APB1_GRP1_EnableClock(LL_APB1_GRP1_PERIPH_PWR);
+
+	// NOJTAG: JTAG-DP Disabled and SW-DP Enabled
+	LL_GPIO_AF_Remap_SWJ_NOJTAG();
+
+	// Configure the system clock
+	SystemClock_Config();
+
+	// Peripheral clock enable
+	LL_APB2_GRP1_EnableClock(LL_APB2_GRP1_PERIPH_GPIOB);
+
+	// Initialize all configured peripherals
+	MX_I2C1_Init();
+}
+
+int Init(void) {
+	MySystemInit();
+	return 1;
+}
+
+int Read(uint32_t address, uint32_t size, uint8_t* buffer) {
+	// Disable Pos
+	LL_I2C_DisableBitPOS(I2C1);
+	LL_I2C_AcknowledgeNextData(I2C1, LL_I2C_ACK);
+	LL_I2C_GenerateStartCondition(I2C1);
+	while (!LL_I2C_IsActiveFlag_SB(I2C1));
+
+	// Read state
+	(void) I2C1->SR1;
+	LL_I2C_TransmitData8(I2C1, CONFIG_EEPROM_ADDRESS | I2C_REQUEST_WRITE);
+	while (!LL_I2C_IsActiveFlag_ADDR(I2C1)){};
+	LL_I2C_ClearFlag_ADDR(I2C1);
+	LL_I2C_TransmitData8(I2C1, (uint8_t) (address >> 8));
+	while (!LL_I2C_IsActiveFlag_TXE(I2C1));
+	LL_I2C_TransmitData8(I2C1, (uint8_t) address);
+	while (!LL_I2C_IsActiveFlag_TXE(I2C1));
+	LL_I2C_GenerateStartCondition(I2C1);
+	while (!LL_I2C_IsActiveFlag_SB(I2C1));
+	(void) I2C1->SR1;
+	LL_I2C_TransmitData8(I2C1, CONFIG_EEPROM_ADDRESS | I2C_REQUEST_READ);
+	while (!LL_I2C_IsActiveFlag_ADDR(I2C1)){};
+	LL_I2C_ClearFlag_ADDR(I2C1);
+	for (uint32_t i = 0; i < size; i++) {
+		if (i < (size-1)) {
+			while (!LL_I2C_IsActiveFlag_RXNE(I2C1));
+			buffer[i] = LL_I2C_ReceiveData8(I2C1);
+		} else {
+			LL_I2C_AcknowledgeNextData(I2C1, LL_I2C_NACK);
+			LL_I2C_GenerateStopCondition(I2C1);
+			while (!LL_I2C_IsActiveFlag_RXNE(I2C1));
+			buffer[i] = LL_I2C_ReceiveData8(I2C1);
+		}
+	}
+
+	return 1;
+}
+
+int WritePage(uint32_t address, uint32_t size, uint8_t* buffer){
+	// Disable Pos
+	LL_I2C_DisableBitPOS(I2C1);
+	LL_I2C_AcknowledgeNextData(I2C1, LL_I2C_ACK);
+	LL_I2C_GenerateStartCondition(I2C1);
+	while (!LL_I2C_IsActiveFlag_SB(I2C1));
+
+	// Read state
+	(void) I2C1->SR1;
+	LL_I2C_TransmitData8(I2C1, CONFIG_EEPROM_ADDRESS | I2C_REQUEST_WRITE);
+	while (!LL_I2C_IsActiveFlag_ADDR(I2C1));
+	LL_I2C_ClearFlag_ADDR(I2C1);
+	LL_I2C_TransmitData8(I2C1, (uint8_t) (address >> 8));
+	while (!LL_I2C_IsActiveFlag_TXE(I2C1));
+	LL_I2C_TransmitData8(I2C1, (uint8_t) address);
+	while (!LL_I2C_IsActiveFlag_TXE(I2C1));
+	for (uint32_t i = 0; i < Size; i++) {
+		LL_I2C_TransmitData8(I2C1, buffer[i]);
+		while(!LL_I2C_IsActiveFlag_TXE(I2C1));
+	}
+	LL_I2C_GenerateStopCondition(I2C1);
+
+	return 1;
+}
+
+int Write(uint32_t Address, uint32_t Size, uint8_t* buffer){
+
+	while (size > CONFIG_EEPROM_PAGE_SIZE) {
+		WritePage(Address, CONFIG_EEPROM_PAGE_SIZE, buffer);
+		buffer  += CONFIG_EEPROM_PAGE_SIZE;
+		address += CONFIG_EEPROM_PAGE_SIZE;
+		size    -= CONFIG_EEPROM_PAGE_SIZE;
+	}
+
+	if (size) WritePage(address, size, buffer);
+
+	return 1;
+}

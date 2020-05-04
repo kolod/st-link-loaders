@@ -1,0 +1,35 @@
+// Copyright (c) 2020 Alexandr Kolodkin <alexandr.kolodkin@gmail.com>
+// All rights reserved.
+
+
+#include "device_info.h"
+
+#include "config.h"
+
+// This structure contains information used by ST-LINK Utility
+// to program and erase the device
+__attribute__ ((section(".device_info")))
+struct StorageInfo const StorageInfo = {
+	.DeviceName         = "24C64F_SOFT-STARTER",      // Device Name + version number
+	.DeviceType         = I2C_EEPROM,                 // Device Type
+	.DeviceStartAddress = 0x00000000,                 // Device Start Address
+	.DeviceSize         = CONFIG_EEPROM_SIZE,         // Device Size in Bytes (4 kBytes / 32 kBits)
+	.PageSize           = CONFIG_EEPROM_PAGE_SIZE,    // Programming Page Size 8 Bytes
+	.EraseValue         = 0xFF,                       // Initial Content of Erased Memory
+
+	// Specify Size and Address of Sectors (view example below)
+	.sectors = {
+		{CONFIG_EEPROM_SIZE / CONFIG_EEPROM_PAGE_SIZE, CONFIG_EEPROM_PAGE_SIZE},     // Sector Num: 128 ,Sector Size: 64KBytes
+		{0, 0}
+	}
+};
+
+//	Sector coding example
+//	A device with succives 16 Sectors of 1KBytes, 128 Sectors of 16 KBytes,
+//	8 Sectors of 2KBytes and 16384 Sectors of 8KBytes
+//
+//	0x00000010, 0x00000400,  // 16 Sectors of 1KBytes
+//	0x00000080, 0x00004000,  // 128 Sectors of 16 KBytes
+//	0x00000008, 0x00000800,  // 8 Sectors of 2KBytes
+//	0x00004000, 0x00002000,  // 16384 Sectors of 8KBytes
+//	0x00000000, 0x00000000,  // end
